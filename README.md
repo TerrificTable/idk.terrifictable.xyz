@@ -1,2 +1,0 @@
-# idk.terrifictable.xyz
-stuff
