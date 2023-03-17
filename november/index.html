@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--     <meta http-equiv="refresh" content="0; url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'" /> -->
     <script type="text/javascript">
-        url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        if (Math.floor(Math.random() * 100) > 50) {
-            url = "https://www.silencelife.gg/discord/"
+        Array.prototype.random = function () {
+            return this[Math.floor((Math.random()*this.length))];
         }
+
+        Array.prototype.random = function () {return this[Math.floor((Math.random()*this.length))];}
+
+        urls = ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"]
+        url = urls.random()}
         
         window.location.href = url;
     </script>
@@ -20,7 +24,7 @@
      <meta name="og:title"           content="Download">
      <meta name="og:description"     content="Download November-Client for Free Now">
      <meta name="og:url"             content="https://idk.terrifictable.xyz/november">
-     <meta name="theme-color"        content="#2991ff">
+     <meta name="theme-color"        content="#f37a00">
 
     <title>Download November</title>
 </head>
